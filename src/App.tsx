@@ -1,5 +1,6 @@
 import UseContextComponant from './componants/UseContextComponant';
 import UseEffectComponant from './componants/UseEffectComponant';
+import UseReducerComponant from './componants/UseReducerComponant';
 import UseStateComponant from './componants/UseStateComponant';
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <UseEffectComponant />
       <h1>useContext</h1>
       <UseContextComponant />
+      <h1>useReducer</h1>
+      <UseReducerComponant />
     </div>
   );
 }
