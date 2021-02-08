@@ -7,3 +7,6 @@ to implement a pure function with same calls to the backend or same loggin stuff
 the useEffect hook is used to observe the side-effect in a function componant , it is capable for handing componentDidMount() , componentDidUpdate() and componentWillUnmount() ,
 ## useContext
 useContext hook provides a way to share data between tree componant without passing data via props
+## useReducer
+is like useState hook but we a large state and trou multiple componants
+userReducer accepte a reducer( state , action ) that return aftr evry change a new state and a state
