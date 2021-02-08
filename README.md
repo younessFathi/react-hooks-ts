@@ -6,3 +6,4 @@ the useState hook return an array with two values , the first value is the data 
 to implement a pure function with same calls to the backend or same loggin stuff or same DOM manipulation with an event , we must use a side-effect method to observe.
 the useEffect hook is used to observe the side-effect in a function componant , it is capable for handing componentDidMount() , componentDidUpdate() and componentWillUnmount() ,
 ## useContext
+useContext hook provides a way to share data between tree componant without passing data via props
