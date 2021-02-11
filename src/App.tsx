@@ -1,7 +1,8 @@
 import UseContextComponant from './componants/UseContextComponant';
-import UseEffectComponant from './componants/UseEffectComponant';
+import UseEffectComponant from './componants/useEffectComponant';
 import UseReducerComponant from './componants/UseReducerComponant';
 import UseStateComponant from './componants/UseStateComponant';
+import UseCustomHookComponant from './componants/UseCustomHookComponant';
 function App() {
   return (
     <div>
@@ -13,6 +14,8 @@ function App() {
       <UseContextComponant />
       <h1>useReducer</h1>
       <UseReducerComponant />
+      <h1>CustomHook</h1>
+      <UseCustomHookComponant />
     </div>
   );
 }
