@@ -10,3 +10,7 @@ useContext hook provides a way to share data between tree componant without pass
 ## useReducer
 is like useState hook but we a large state and trou multiple componants
 userReducer accepte a reducer( state , action ) that return aftr evry change a new state and a state
+## useMemo
+for memorizing the output of a function for optimization purpse.
+the same result will out when passe the same params.
+the useMemo hook accept two params , the first is a function that will compute on a data and the second is the data it selfs , useMemo hook will watch the changes on our data , and if it notice that we have a change , it will execute the function
